@@ -1,0 +1,17 @@
+-- How To Setup and Run The Code --
+#1 Download dan install R languange di https://cran.rstudio.com/
+#2 Download dan install aplikasi R Studio di https://rstudio.com/products/rstudio/download/
+#3 Buka file final.R di R Studio
+#4 Install packages yang akan digunakan. Block semua "install.packages("..")" 
+pada text editor, lalu klik button run pada sebelah kanan atas text editor R Studio atau simpelnya tekan 
+Ctrl+Enter pada keyboard.
+#5 Masukkan semua library dari packages yang telah diinstall. Block semua "library(..)" pada text editor, 
+lalu tekan Ctrl+Enter pada keyboard.
+#6 Mencari lokasi dokumen dan membaca dokumen. 
+	block lalu run : 
+	"setwd("F:/TEKNIK INFORMATIKA/SEMESTER VI/TEXT MINING/Final Project/data twitter")
+	data_tweets<-read.csv("data_tweets.csv", stringsAsFactors = TRUE, sep=";")" 
+	ket : pada setwd() pastikan lokasi file data_tweets disesuaikan. menggunakan tanda '/' untuk locatornya
+#7 Jalankan satu persatu code untuk melihat hasil step by stepnya. 
+	ket : step by step dipisahkan dengan komentar contoh : '#TextCLeaning ...'
+
